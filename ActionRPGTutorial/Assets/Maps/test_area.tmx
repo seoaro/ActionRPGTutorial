@@ -9,19 +9,45 @@
   <tile id="2" terrain=",,,1">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="16" height="16"/>
+    <object id="0" x="0" y="0" width="16" height="16"/>
    </objectgroup>
   </tile>
   <tile id="3" terrain=",,1,1">
-   <objectgroup draworder="index"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
   </tile>
-  <tile id="4" terrain=",,1,"/>
+  <tile id="4" terrain=",,1,">
+   <objectgroup draworder="index">
+    <object id="0" x="0.125" y="0.125" width="15.75" height="15.625"/>
+   </objectgroup>
+  </tile>
   <tile id="59" terrain=",1,,1">
-   <objectgroup draworder="index"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0.375" y="0.625" width="15.5" height="15.25"/>
+   </objectgroup>
   </tile>
-  <tile id="60" terrain="1,1,1,1"/>
-  <tile id="61" terrain="1,,1,"/>
-  <tile id="116" terrain=",1,,"/>
-  <tile id="117" terrain="1,1,,"/>
+  <tile id="60" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.125" y="0.25" width="16" height="15.875"/>
+    <object id="0" x="0" y="0.5" width="15.875" height="15.625"/>
+   </objectgroup>
+  </tile>
+  <tile id="61" terrain="1,,1,">
+   <objectgroup draworder="index">
+    <object id="0" x="0.375" y="0.125" width="15.625" height="15.625"/>
+   </objectgroup>
+  </tile>
+  <tile id="116" terrain=",1,,">
+   <objectgroup draworder="index">
+    <object id="0" x="0.25" y="0.5" width="15.875" height="15.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="117" terrain="1,1,,">
+   <objectgroup draworder="index">
+    <object id="0" x="0.25" y="0.625" width="15.75" height="15.25"/>
+   </objectgroup>
+  </tile>
   <tile id="118" terrain="1,,,">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="16" height="15.25"/>
