@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: dce5844788a46de4cb91b87f533015c4
-timeCreated: 1460650876
+guid: 849d6dd464b73c84eab29870fa4ee215
+timeCreated: 1460657721
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -8,15 +8,15 @@ ModelImporter:
     100000: mesh_0001
     100002: mesh_0002
     100004: mesh_0003
-    100006: //RootNode
-    100008: mesh_0004
-    100010: mesh_0005
+    100006: mesh_0004
+    100008: mesh_0005
+    100010: //RootNode
     400000: mesh_0001
     400002: mesh_0002
     400004: mesh_0003
-    400006: //RootNode
-    400008: mesh_0004
-    400010: mesh_0005
+    400006: mesh_0004
+    400008: mesh_0005
+    400010: //RootNode
     2300000: mesh_0001
     2300002: mesh_0002
     2300004: mesh_0003
