@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
 
     public string startPoint;
 
+    public bool canMove;
+
 	// Use this for initialization
 	void Start()
     {
@@ -37,13 +39,19 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        
+        canMove = true;
 	}
 	
 	// Update is called once per frame
 	void Update()
     {
 		playerMoving = false;
+
+        if(!canMove)
+        {
+            myRigidbody.velocity = Vector2.zero;
+            return;
+        }
 
         if (!attacking)
         {

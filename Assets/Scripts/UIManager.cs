@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour
     public Slider healthBar;
     public Text HPText;
     public PlayerHealthManager playerHealth;
+    private PlayerStats thePS;
+    public Text levelText;
 
     private static bool UIExists;
 
@@ -24,6 +26,8 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        thePS = GetComponent<PlayerStats>();
+
     }
 	
 	// Update is called once per frame
@@ -32,5 +36,6 @@ public class UIManager : MonoBehaviour
         healthBar.maxValue = playerHealth.playerMaxHealth;
         healthBar.value = playerHealth.playerCurrentHealth;
         HPText.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
+        levelText.text = "LV: " + thePS.currentLevel;
 	}
 }
